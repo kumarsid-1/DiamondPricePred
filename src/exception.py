@@ -25,6 +25,7 @@ class CustomException(Exception):
 #     logging.info("Logging has started")
 #     try:
 #         a=1/0
+#         print(a)
 #     except Exception as e:
 #         logging.info('Dicision by zero') 
 #         raise CustomException(e,sys)
